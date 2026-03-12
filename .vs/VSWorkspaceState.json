@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\data",
+    "\\src\\data\\pokemon",
+    "\\src\\data\\pokemon\\species_info"
+  ],
+  "SelectedNode": "\\src\\data\\pokemon\\species_info\\gen_3_families.h",
+  "PreviewInSolutionExplorer": false
+}
