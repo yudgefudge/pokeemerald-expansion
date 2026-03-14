@@ -2413,4 +2413,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_FINESSE] =
+    {
+    .name = _("Finesse"),
+        .description = COMPOUND_STRING("Raises Special Attack."),
+        .aiRating = 10,
+    }
 };
