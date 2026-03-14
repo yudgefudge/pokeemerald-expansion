@@ -2419,5 +2419,5 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     .name = _("Finesse"),
         .description = COMPOUND_STRING("Raises Special Attack."),
         .aiRating = 10,
-    }
+    },
 };
