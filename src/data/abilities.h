@@ -2416,7 +2416,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_FINESSE] =
     {
-    .name = _("Big Black"),
+    .name = _("Finesse"),
         .description = COMPOUND_STRING("Raises Special Attack."),
         .aiRating = 10,
     },
