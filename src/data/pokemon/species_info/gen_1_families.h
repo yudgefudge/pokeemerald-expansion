@@ -4614,7 +4614,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_NIDOQUEEN] =
     {
         .baseHP        = 90,
-        .baseAttack    = P_UPDATED_STATS >= GEN_6 82 : 82,
+        .baseAttack    = 82,
         .baseDefense   = 87,
         .baseSpeed     = 66,
         .baseSpAttack  = 75,
@@ -12361,7 +12361,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_ONIX] =
     {
         .baseHP        = 35,
-        .baseAttack    = 65
+        .baseAttack    = 65,
         .baseDefense   = 140,
         .baseSpeed     = 70,
         .baseSpAttack  = 30,
