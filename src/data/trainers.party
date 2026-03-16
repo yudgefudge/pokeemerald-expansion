@@ -329,8 +329,24 @@ Double Battle: No
 AI: Check Bad Move
 
 Poochyena
-Level: 11
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Take Down
+- Howl
+- Thunder Fang
+
+Koffing @ Air Balloon
+Level: 17
+Ability: Neutralizing Gas
+
+Poliwhirl @ Expert Belt
+Level: 19
+IVs: 20 HP / 20 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+- Aqua Jet
+- Mach Punch
+- Water Pulse
+- Hypnosis
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -3192,8 +3208,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Machop
-Level: 13
+Level: 21
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Mankey
+Level: 22
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -4864,28 +4884,39 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
-
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
+Meditite @ Light Clay
+Level: 24
+Ability: Finesse
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Light Screen
 - Reflect
-- Bulk Up
+- Vacuum Wave
+- Psybeam
 
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Elekid @ Sitrus Berry
+Level: 24
+Ability: Iron Fist
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Power-Up Punch
+- Spark
+- Ice Punch
+- Fire Punch
+
+Ledian @ Light Clay
+Level: 24
+Ability: Iron Fist
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Kamen Punch
+- Power-Up Punch
+- Thunder Punch
+- Bullet Punch
+
+Hariyama @ Flame Orb
+Level: 24
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Arm Thrust
-- Vital Throw
-- Reversal
+- Knock Off
+- Bulldoze
 - Bulk Up
 
 === TRAINER_WATTSON_1 ===
@@ -7907,7 +7938,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Meditite
-Level: 13
+Level: 23
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_LAURA ===
@@ -7919,9 +7950,14 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Mankey
+Level: 19
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Makuhita
+Level: 19
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -10669,8 +10705,8 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 13
+Machoke
+Level: 23
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_LILITH ===
@@ -10683,8 +10719,17 @@ Double Battle: No
 AI: Check Bad Move
 
 Meditite
-Level: 13
+Level: 20
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Breloom
+Level: 23
+Ability: Technician
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Mach Punch
+- Bullet Punch
+- Rock Tomb
+- Spore
 
 === TRAINER_CRISTIAN ===
 Name: CRISTIAN
@@ -10696,8 +10741,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Makuhita
-Level: 13
+Level: 23
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Snubbull
+Level: 22
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
@@ -10943,13 +10992,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Cascoon @ Leftovers
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Silk Shot
+- Toxic
+- Poison Sting
+- Harden
 
-Torchic
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Bayleef @ Sitrus Berry
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sleep Powder
+- Disarming Voice
+- Leech Seed
+- Mega Drain
+
+Combusken @ Berry Juice
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flame Charge
+- Power-Up Punch
+- Aerial Ace
+- Double Kick
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -10960,13 +11025,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Cascoon @ Leftovers
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Silk Shot
+- Toxic
+- Poison Sting
+- Harden
 
-Treecko
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Croconaw @ Sitrus Berry
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Jet
+- Bite
+- Ice Fang
+- Water Gun
+
+Grovyle @ Berry Juice
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Bullet Seed
+- Fury Cutter
+- Aerial Ace
+- Leafage
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -11067,13 +11148,29 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Slugma
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Cascoon @ Leftovers
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Silk Shot
+- Toxic
+- Poison Sting
+- Harden
 
-Mudkip
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Quilava @ Sitrus Berry
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ember
+- Mud Slap
+- Flame Wheel
+- Smokescreen
+
+Marshtomp @ Berry Juice
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rock Throw
+- Water Gun
+- Mud Shot
+- Rock Smash
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -11084,13 +11181,29 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Wingull
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Cascoon @ Leftovers
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Silk Shot
+- Toxic
+- Poison Sting
+- Harden
 
-Treecko
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Croconaw @ Sitrus Berry
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Aqua Jet
+- Bite
+- Ice Fang
+- Water Gun
+
+Grovyle @ Berry Juice
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Bullet Seed
+- Fury Cutter
+- Aerial Ace
+- Leafage
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
 Name: MAXIE
@@ -14230,13 +14343,29 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Lotad
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Cascoon @ Leftovers
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Silk Shot
+- Toxic
+- Poison Sting
+- Harden
 
-Torchic
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Bayleef @ Sitrus Berry
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sleep Powder
+- Disarming Voice
+- Leech Seed
+- Mega Drain
+
+Combusken @ Berry Juice
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Flame Charge
+- Power-Up Punch
+- Aerial Ace
+- Double Kick
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -14247,13 +14376,29 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torkoal
-Level: 13
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Cascoon @ Leftovers
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Silk Shot
+- Toxic
+- Poison Sting
+- Harden
 
-Mudkip
-Level: 15
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Quilava @ Sitrus Berry
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ember
+- Mud Slap
+- Flame Wheel
+- Smokescreen
+
+Marshtomp @ Berry Juice
+Level: 17
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Rock Throw
+- Water Gun
+- Mud Shot
+- Rock Smash
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE

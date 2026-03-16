@@ -1084,10 +1084,10 @@ RustboroCity_Text_PokemonChangeShape:
 	.string "If one did that, I would be shocked!$"
 
 RustboroCity_Text_TradePokemonGrowFast:
-	.string "A POKéMON you get in a trade from\n"
-	.string "someone grows fast.\p"
-	.string "But if you don't have certain GYM\n"
-	.string "BADGES, it may not obey you…$"
+	.string "Rusturf Tunnel is getting\n"
+	.string "colder. I saw it on the news.\p"
+	.string "It's gonna be full of Ice-type\n"
+	.string "POKéMON now.$"
 
 RustboroCity_Text_OutOfTheWay:
 	.string "Get out!\n"
