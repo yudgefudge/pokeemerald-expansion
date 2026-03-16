@@ -1552,7 +1552,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_SURGE_SURFER] =
     {
-        .name = _("Surge Surfer"),
+        .name = _("Speed Surge"),
         .description = COMPOUND_STRING("Faster on electricity."),
         .aiRating = 4,
     },
@@ -1628,7 +1628,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_QUEENLY_MAJESTY] =
     {
-        .name = _("Queenly Majesty"),
+        .name = _("Royal Glory"),
         .description = COMPOUND_STRING("Protects from priority."),
         .aiRating = 6,
         .breakable = TRUE,
@@ -1673,7 +1673,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_SOUL_HEART] =
     {
-        .name = _("Soul-Heart"),
+        .name = _("Hubris"),
         .description = COMPOUND_STRING("KOs raise Sp. Atk."),
         .aiRating = 7,
     },
@@ -1855,7 +1855,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_PUNK_ROCK] =
     {
-        .name = _("Punk Rock"),
+        .name = _("Cacophony"),
         .description = COMPOUND_STRING("Ups and resists sound."),
         .aiRating = 2,
         .breakable = TRUE,
@@ -1870,7 +1870,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_ICE_SCALES] =
     {
-        .name = _("Ice Scales"),
+        .name = _("Magic Scales"),
         .description = COMPOUND_STRING("Halves special damage."),
         .aiRating = 7,
         .breakable = TRUE,
@@ -1878,7 +1878,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_RIPEN] =
     {
-        .name = _("Ripen"),
+        .name = _("Gourmand"),
         .description = COMPOUND_STRING("Doubles effect of Berries."),
         .aiRating = 4,
     },
@@ -2248,7 +2248,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_SHARPNESS] =
     {
-        .name = _("Sharpness"),
+        .name = _("Cutting Edge"),
         .description = COMPOUND_STRING("Strengthens slicing moves."),
         .aiRating = 7,
     },
@@ -2420,4 +2420,26 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Raises Special Attack."),
         .aiRating = 10,
     },
+
+    [ABILITY_TERRIFY] =
+    {
+        .name = _("Terrify"),
+        .description = COMPOUND_STRING("Lowers foe's Sp. Attack."),
+        .aiRating = 7,
+    },
+
+    [ABILITY_PYROCLASTIC] =
+    {
+        .name = _("Pyroclastic"),
+        .description = COMPOUND_STRING("Fire moves go first."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_HAMMER_TIME] =
+    {
+        .name = _("Hammer Time"),
+        .description = COMPOUND_STRING("Strengthens hammer moves."),
+        .aiRating = 7,
+    },
+
 };

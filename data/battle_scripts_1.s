@@ -6192,6 +6192,56 @@ BattleScript_IntimidateActivates::
 	savetarget
 	call BattleScript_AbilityPopUp
 	setbyte gBattlerTarget, 0
+BattleScript_TerrifyActivates::
+	savetarget
+	call BattleScript_AbilityPopUp
+	setbyte gBattlerTarget, 0
+BattleScript_TerrifyLoop:
+	jumpiftargetally BattleScript_TerrifyLoopIncrement
+	jumpifabsent BS_TARGET, BattleScript_TerrifyLoopIncrement
+	jumpifvolatile BS_TARGET, VOLATILE_SUBSTITUTE, BattleScript_TerrifyLoopIncrement
+BattleScript_TerrifyEffect:
+	copybyte sBATTLER, gBattlerAttacker
+	setstatchanger STAT_SPATK, 1, TRUE
+	statbuffchange BS_TARGET, STAT_CHANGE_NOT_PROTECT_AFFECTED | STAT_CHANGE_ALLOW_PTR, BattleScript_TerrifyLoopIncrement
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, B_MSG_STAT_WONT_CHANGE, BattleScript_TerrifyWontDecrease
+	printstring STRINGID_PKMNCUTSSPATTACKWITH
+BattleScript_TerrifyEffect_WaitString:
+	waitmessage B_WAIT_TIME_LONG
+	saveattacker
+	savetarget
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_TryIntimidateHoldEffects
+	restoreattacker
+	restoretarget
+BattleScript_TerrifyLoopIncrement:
+	addbyte gBattlerTarget, 1
+	jumpifbytenotequal gBattlerTarget, gBattlersCount, BattleScript_TerrifyLoop
+	copybyte sBATTLER, gBattlerAttacker
+	destroyabilitypopup
+	restoretarget
+	restoreattacker
+	pause B_WAIT_TIME_MED
+	return
+
+BattleScript_TerrifyPrevented::
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_AbilityPopUp
+	printstring STRINGID_PKMNPREVENTSSTATLOSSWITH
+	goto BattleScript_TerrifyEffect_WaitString
+
+BattleScript_TerrifyWontDecrease:
+	printstring STRINGID_STATSWONTDECREASE
+	goto BattleScript_TerrifyEffect_WaitString
+
+BattleScript_TerrifyInReverse::
+	copybyte sBATTLER, gBattlerTarget
+	call BattleScript_AbilityPopUpTarget
+	pause B_WAIT_TIME_SHORT
+	modifybattlerstatstage BS_TARGET, STAT_SPATK, INCREASE, 6, BattleScript_TerrifyLoopIncrement, ANIM_ON
+	call BattleScript_TryIntimidateHoldEffects
+	goto BattleScript_TerrifyLoopIncrement
+
 BattleScript_IntimidateLoop:
 	jumpiftargetally BattleScript_IntimidateLoopIncrement
 	jumpifabsent BS_TARGET, BattleScript_IntimidateLoopIncrement
