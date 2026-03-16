@@ -21406,7 +21406,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_BAN_HAMMER] =
     {
-        .name = COMPOUND_STRING("Ban_Hammer"),
+        .name = COMPOUND_STRING("Ban Hammer"),
         .description = sCircleThrowDescription,
         .effect = EFFECT_HIT_SWITCH_TARGET,
         .power = 60,
@@ -21425,6 +21425,28 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboMoves = {COMBO_STARTER_DRAGON_BREATH, COMBO_STARTER_DRAGON_DANCE, COMBO_STARTER_DRAGON_RAGE, COMBO_STARTER_DRAGON_RUSH, COMBO_STARTER_STEALTH_ROCK, COMBO_STARTER_SPIKES, COMBO_STARTER_TOXIC_SPIKES},
         .battleAnimScript = gBattleAnimMove_IceHammer,
     },
+
+     [MOVE_GEM_GLOW] =
+    {
+        .name = COMPOUND_STRING("Gem Glow"),
+        .description = COMPOUND_STRING(
+            "Attacks with a glow\n"
+            "that sparkles like diamonds."),
+        .effect = EFFECT_HIT,
+        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 40 : 70,
+        .type = TYPE_ROCK,
+        .accuracy = 100,
+        .pp = 30,
+        .target = TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .contestEffect = CONTEST_EFFECT_HIGHLY_APPEALING,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_PowerGem,
+    },
+
 
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
