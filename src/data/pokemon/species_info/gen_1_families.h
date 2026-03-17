@@ -16009,6 +16009,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sMrMimeTeachableLearnset,
         .eggMoveLearnset = sMrMimeEggMoveLearnset,
         .formSpeciesIdTable = sMrMimeFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_LEVEL, 42, SPECIES_MR_RIME}),
     },
 
 #if P_GALARIAN_FORMS
@@ -16029,7 +16030,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_VITAL_SPIRIT, ABILITY_SCREEN_CLEANER, ABILITY_ICE_BODY },
+        .abilities = { ABILITY_PSYCHIC_SURGE, ABILITY_SCREEN_CLEANER, ABILITY_ICE_BODY },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Mr. Mime"),
         .cryId = CRY_MR_MIME,
@@ -16087,7 +16088,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = 70,
         .baseSpAttack  = 110,
         .baseSpDefense = 100,
-        .types = MON_TYPES(TYPE_ICE, TYPE_PSYCHIC),
+        .types = MON_TYPES(TYPE_FAIRY, TYPE_PSYCHIC),
         .catchRate = 45,
         .expYield = 182,
         .evYield_SpAttack = 3,
@@ -16099,7 +16100,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .abilities = { ABILITY_TANGLED_FEET, ABILITY_SCREEN_CLEANER, ABILITY_ICE_BODY },
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = TRUE,
-        .speciesName = _("Mr. Rime"),
+        .speciesName = _("Mime Sr."),
         .cryId = CRY_MR_RIME,
         .natDexNum = NATIONAL_DEX_MR_RIME,
         .categoryName = _("Comedian"),
@@ -16107,7 +16108,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .weight = 582,
         .description = COMPOUND_STRING(
             "It's highly skilled at tap-dancing. It\n"
-            "waves its cane of ice in time with its\n"
+            "waves its cane in time with its\n"
             "graceful movements."),
         .pokemonScale = 268,
         .pokemonOffset = 2,
