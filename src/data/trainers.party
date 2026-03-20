@@ -4906,7 +4906,7 @@ Ledian @ Light Clay
 Level: 24
 Ability: Moxie
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Kamen Punch
+- Comet Punch
 - Brick Break
 - Thunder Punch
 - Bullet Punch
@@ -6469,15 +6469,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 10
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 7
+Wailmer
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
-Level: 10
+Gyarados
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_NED ===
@@ -6490,8 +6490,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 11
+Level: 20
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Lombre
+Level: 20
 
 === TRAINER_DALE ===
 Name: DALE
@@ -8909,7 +8912,7 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Volbeat
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Struggle Bug
 - Thunder Shock
@@ -8917,7 +8920,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tail Glow
 
 Illumise
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Fairy Wind
 - Struggle Bug
@@ -9056,12 +9059,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 12
+Level: 19
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Machop
-Level: 12
+Makuhita
+Level: 20
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Poliwhirl
+Level: 20
 
 === TRAINER_EDMOND ===
 Name: EDMOND

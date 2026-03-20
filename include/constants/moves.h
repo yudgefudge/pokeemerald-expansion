@@ -906,6 +906,7 @@ enum __attribute__((packed)) Move
     MOVE_BAN_HAMMER = 848,
     MOVE_GEM_GLOW = 849,
     MOVE_SILK_SHOT = 850,
+    MOVE_RALLYING_ROAR = 851,
     MOVES_COUNT_GEN9,
 
     // Add any custom moves here, not further down!
