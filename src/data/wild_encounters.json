@@ -115,7 +115,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_WURMPLE"
+                "species": "SPECIES_BUDEW"
               },
               {
                 "min_level": 3,
@@ -1433,63 +1433,63 @@
             "mons": [
               {
                 "min_level": 13,
-                "max_level": 13,
-                "species": "SPECIES_POOCHYENA"
+                "max_level": 25,
+                "species": "SPECIES_DUNSPARCE"
               },
               {
                 "min_level": 13,
-                "max_level": 13,
-                "species": "SPECIES_ODDISH"
+                "max_level": 25,
+                "species": "SPECIES_BUDEW"
               },
               {
                 "min_level": 14,
-                "max_level": 14,
-                "species": "SPECIES_POOCHYENA"
-              },
-              {
-                "min_level": 14,
-                "max_level": 14,
-                "species": "SPECIES_ODDISH"
-              },
-              {
-                "min_level": 13,
-                "max_level": 13,
+                "max_level": 27,
                 "species": "SPECIES_MARILL"
               },
               {
-                "min_level": 13,
-                "max_level": 13,
-                "species": "SPECIES_ODDISH"
+                "min_level": 14,
+                "max_level": 25,
+                "species": "SPECIES_SNUBBULL"
               },
               {
                 "min_level": 13,
-                "max_level": 13,
+                "max_level": 25,
+                "species": "SPECIES_POOCHYENA"
+              },
+              {
+                "min_level": 13,
+                "max_level": 26,
+                "species": "SPECIES_STANTLER"
+              },
+              {
+                "min_level": 13,
+                "max_level": 25,
                 "species": "SPECIES_ILLUMISE"
               },
               {
                 "min_level": 13,
-                "max_level": 13,
+                "max_level": 26,
                 "species": "SPECIES_ILLUMISE"
               },
               {
                 "min_level": 14,
-                "max_level": 14,
-                "species": "SPECIES_ILLUMISE"
+                "max_level": 27,
+                "species": "SPECIES_VOLBEAT"
               },
               {
                 "min_level": 14,
-                "max_level": 14,
+                "max_level": 28,
                 "species": "SPECIES_ILLUMISE"
               },
               {
                 "min_level": 13,
-                "max_level": 13,
+                "max_level": 27,
                 "species": "SPECIES_VOLBEAT"
               },
               {
                 "min_level": 13,
-                "max_level": 13,
-                "species": "SPECIES_SEEDOT"
+                "max_level": 27,
+                "species": "SPECIES_DUNSPARCE"
               }
             ]
           },
