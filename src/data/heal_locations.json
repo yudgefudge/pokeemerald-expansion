@@ -194,13 +194,7 @@
       "x": 6,
       "y": 8,
       "respawn_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
-<<<<<<< HEAD
-      "respawn_npc": "LOCALID_MOM",
-      "respawn_x": 8,
-      "respawn_y": 5
-=======
       "respawn_npc": "LOCALID_PLAYERS_HOUSE_1F_MOM"
->>>>>>> 61a2905f46ddc933717d32852fb455334c0363aa
     },
     {
       "id": "HEAL_LOCATION_VIRIDIAN_CITY",
