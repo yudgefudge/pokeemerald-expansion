@@ -968,11 +968,11 @@ static const union AffineAnimCmd *const sAffineAnims_CrossingMonPics[] =
 
 static const struct InGameTrade sIngameTrades[] =
 {
-    [INGAME_TRADE_SEEDOT] =
+    [INGAME_TRADE_WYNAUT] =
     {
-        .nickname = _("DOTS"),
-        .species = SPECIES_SEEDOT,
-        .ivs = {5, 4, 5, 4, 4, 4},
+        .nickname = _("NAUTY"),
+        .species = SPECIES_WYNAUT,
+        .ivs = {31, 0, 0, 0, 0, 0},
         .abilityNum = 1,
         .otId = 38726,
         .conditions = {30, 5, 5, 5, 5},
@@ -984,10 +984,10 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_RALTS
     },
-    [INGAME_TRADE_PLUSLE] =
+    [INGAME_TRADE_SHUCKLE] =
     {
-        .nickname = _("PLUSES"),
-        .species = SPECIES_PLUSLE,
+        .nickname = _("AWSHUCKS"),
+        .species = SPECIES_SHUCKLE,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
         .otId = 73996,
@@ -1000,10 +1000,10 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_VOLBEAT
     },
-    [INGAME_TRADE_HORSEA] =
+    [INGAME_TRADE_SMEARGLE] =
     {
-        .nickname = _("SEASOR"),
-        .species = SPECIES_HORSEA,
+        .nickname = _("DANI"),
+        .species = SPECIES_SMEARGLE,
         .ivs = {5, 4, 4, 4, 5, 4},
         .abilityNum = 0,
         .otId = 46285,
@@ -1012,7 +1012,7 @@ static const struct InGameTrade sIngameTrades[] =
         .heldItem = ITEM_WAVE_MAIL,
         .mailNum = 1,
         .otName = _("SKYLAR"),
-        .otGender = MALE,
+        .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_BAGON
     },

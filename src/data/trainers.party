@@ -412,26 +412,52 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 15
+Slowpoke
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Psybeam
+- Slack Off
+- Teleport
+
+Nidorino
+Level: 26
+- Bulldoze
+- Megahorn
+- Poison Tail
+- Rollout
 
 === TRAINER_GRUNT_MUSEUM_2 ===
-Name: GRUNT
+Name: Matt
 Class: Team Aqua
-Pic: Aqua Grunt M
+Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
+Items: Super Potion
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wailmer
+Level: 26
+IVs: 31 HP / 0 Atk / 31 Def / 0 SpA / 31 SpD / 0 Spe
+- Water Spout
 
-Carvanha
-Level: 14
+Golbat
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Crunch
+- Dual Wingbeat
+- U-Turn
+
+Huntail
+Level: 27
+Ability: Opportunist
+IVs: 0 HP / 20 Atk / 0 Def / 0 SpA / 0 SpD / 10 Spe
+- Aqua Tail
+- Ice Fang
+- Bite
+- Psychic Fangs
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -654,12 +680,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 14
+Breloom
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Roselia
-Level: 14
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROSE_1 ===
@@ -1191,13 +1217,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Azurill
-Level: 12
+Chinchou
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Wave
+- Thunder Shock
+- Shock Wave
+- Water Pulse
 
-Marill
-Level: 12
+Staryu
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Psybeam
+- Bulk Up
+- Confusion
 
 === TRAINER_CHARLIE ===
 Name: CHARLIE
@@ -3403,20 +3437,22 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 17
+Plusle
+Level: 32
+Ability: Transistor
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Quick Attack
 - Thunder Wave
-- Spark
+- Thunderbolt
 - Leer
 
-Voltorb
-Level: 17
+Electrode
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Charge
 - Shock Wave
 - Screech
+- Thunder Wave
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3457,12 +3493,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Voltorb
-Level: 17
+Raichu
+Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Magnemite
-Level: 17
+Magneton
+Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_FERNANDO_1 ===
@@ -4147,10 +4183,15 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Abra
-Level: 15
+Chingling
+Level: 26
+
+Smoochum
+Level: 26
+
+Kadabra
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
 
 === TRAINER_PRESTON ===
 Name: PRESTON
@@ -4836,9 +4877,9 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Aron @ Chople Berry
+Aron
 Level: 16
 Ability: Sturdy
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4882,10 +4923,10 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Meditite @ Light Clay
-Level: 24
+Level: 25
 Ability: Finesse
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Light Screen
@@ -4894,7 +4935,7 @@ IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Psybeam
 
 Electabuzz @ Magnet
-Level: 24
+Level: 25
 Ability: Iron Fist
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Power-Up Punch
@@ -4902,8 +4943,17 @@ IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Ice Punch
 - Fire Punch
 
+Combusken @ Charcoal
+Level: 25
+Ability: Competitive
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Flame Charge
+- Aerial Ace
+- Double Kick
+- Flame Burst
+
 Ledian @ Light Clay
-Level: 24
+Level: 25
 Ability: Moxie
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Comet Punch
@@ -4912,7 +4962,7 @@ IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Bullet Punch
 
 Hariyama @ Flame Orb
-Level: 24
+Level: 25
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Arm Thrust
 - Knock Off
@@ -4927,39 +4977,52 @@ Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Voltorb
-Level: 20
+Electrode @ Terrain Extender
+Level: 36
+Ability: Electric Surge
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+- Rising Voltage
+- Reflect
+- Light Screen
+- Explosion
 
-Electrike
-Level: 20
+Magnezone
+Level: 36
+Ability: Magnet Pull
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
+- Tri Attack
+- Hidden Power Grass
+- Rising Voltage
+- Mirror Shot
 
-Magneton
-Level: 22
+Lanturn @ Leftovers
+Level: 36
+Ability: Volt Absorb
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
+- Parabolic Charge
+- Bouncy Bubble
 - Thunder Wave
-- Sonic Boom
+- Aqua Ring
+
+Volbeat @ Focus Sash
+Level: 36
+Ability: Costar
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Bug Buzz
+- Thunder
+- Thunder Wave
+- Tail Glow
 
 Manectric @ Sitrus Berry
-Level: 24
+Level: 37
+Ability: Hadron Engine
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+- Thunderbolt
+- Flamethrower
+- Hidden Power Grass
+- Aurora Beam
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -5581,8 +5644,14 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Skitty @ Oran Berry
-Level: 15
+Wigglytuff
+Level: 28
+
+Clefairy
+Level: 27
+
+Delcatty @ Oran Berry
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COLTON ===
@@ -5751,11 +5820,13 @@ Double Battle: No
 AI: Check Bad Move
 
 Plusle @ Oran Berry
-Level: 14
+Level: 26
+Ability: Transistor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Minun @ Oran Berry
-Level: 14
+Level: 26
+Ability: Battery
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISABEL_2 ===
@@ -6120,21 +6191,20 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 17
+Linoone @ Magnet
+Level: 33
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Sand Attack
 - Growl
 - Thunderbolt
 
-Gulpin
-Level: 17
+Porygon2 @ Air Balloon
+Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+- Recover
+- Thunderbolt
+- Tri Attack
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -6329,12 +6399,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 15
+Gulpin
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrike
-Level: 13
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALLACE ===
@@ -6406,15 +6476,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Magikarp
-Level: 5
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 10
+Horsea
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 15
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_IVAN ===
@@ -6506,19 +6576,19 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 11
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wailmer
-Level: 14
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 11
+Mantyke
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wailmer
-Level: 14
+Gyarados
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_NOLAN ===
@@ -8878,11 +8948,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Plusle
-Level: 15
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Minun
-Level: 15
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AMY_AND_LIV_2 ===
@@ -9115,15 +9185,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Wingull
-Level: 11
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machop
-Level: 11
+Machoke
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 11
+Loudred
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PHILLIP ===
@@ -9459,12 +9529,12 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Lombre
-Level: 14
+Miltank
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nuzleaf
-Level: 14
+Tauros
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HECTOR ===
@@ -9645,19 +9715,41 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Slugma
-Level: 18
+Dustox @ Black Sludge
+Level: 29
+Ability: Poison Puppeteer
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Silk Shot
+- Toxic
+- Heal Order
+- Venoshock
 
-Wingull
-Level: 18
+Raichu @ Magnet
+Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunderbolt
+- Aurora Beam
+- Grass Knot
+- Nuzzle
+
+Croconaw
+Level: 30
+Ability: Strong Jaw
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Draco Maw
+- Aqua Jet
+- Ice Fang
+- Iron Tail
 
 Grovyle
-Level: 20
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Blade
+- Cut
+- Night Slash
+- Swords Dance
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -9702,19 +9794,41 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wingull
-Level: 18
+Dustox @ Black Sludge
+Level: 29
+Ability: Poison Puppeteer
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Silk Shot
+- Toxic
+- Heal Order
+- Venoshock
 
-Lombre
-Level: 18
+Raichu @ Magnet
+Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunderbolt
+- Aurora Beam
+- Grass Knot
+- Nuzzle
+
+Bayleef
+Level: 30
+Ability: Grass Pelt
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Leech Seed
+- Giga Drain
+- Light Screen
+- Draining Kiss
 
 Combusken
-Level: 20
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Flame Charge
+- Flame Burst
+- Drain Punch
+- Aerial Ace
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -9759,19 +9873,40 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Lombre
-Level: 18
+Dustox @ Black Sludge
+Level: 29
+Ability: Poison Puppeteer
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Silk Shot
+- Toxic
+- Heal Order
+- Venoshock
 
-Slugma
-Level: 18
+Raichu @ Magnet
+Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunderbolt
+- Aurora Beam
+- Grass Knot
+- Nuzzle
+
+Quilava
+Level: 30
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Flame Burst
+- Thunder Punch
+- Bulldoze
+- Mud Slap
 
 Marshtomp
-Level: 20
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
+- Magnitude
+- Ice Punch
+- Rock Smash
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -9816,19 +9951,41 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wingull
-Level: 18
+Dustox @ Black Sludge
+Level: 29
+Ability: Poison Puppeteer
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Silk Shot
+- Toxic
+- Heal Order
+- Venoshock
 
-Slugma
-Level: 18
+Raichu @ Magnet
+Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunderbolt
+- Aurora Beam
+- Grass Knot
+- Nuzzle
+
+Croconaw
+Level: 30
+Ability: Strong Jaw
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Draco Maw
+- Aqua Jet
+- Ice Fang
+- Iron Tail
 
 Grovyle
-Level: 20
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Blade
+- Cut
+- Night Slash
+- Swords Dance
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -9873,19 +10030,41 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Wingull
-Level: 18
+Dustox @ Black Sludge
+Level: 29
+Ability: Poison Puppeteer
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Silk Shot
+- Toxic
+- Heal Order
+- Venoshock
 
-Lombre
-Level: 18
+Raichu @ Magnet
+Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunderbolt
+- Aurora Beam
+- Grass Knot
+- Nuzzle
+
+Bayleef
+Level: 30
+Ability: Grass Pelt
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Leech Seed
+- Giga Drain
+- Light Screen
+- Draining Kiss
 
 Combusken
-Level: 20
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Flame Charge
+- Flame Burst
+- Drain Punch
+- Aerial Ace
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -9930,19 +10109,40 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Lombre
-Level: 18
+Dustox @ Black Sludge
+Level: 29
+Ability: Poison Puppeteer
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Silk Shot
+- Toxic
+- Heal Order
+- Venoshock
 
-Slugma
-Level: 18
+Raichu @ Magnet
+Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunderbolt
+- Aurora Beam
+- Grass Knot
+- Nuzzle
+
+Quilava
+Level: 30
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Flame Burst
+- Thunder Punch
+- Bulldoze
+- Mud Slap
 
 Marshtomp
-Level: 20
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aqua Tail
+- Magnitude
+- Ice Punch
+- Rock Smash
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -12079,8 +12279,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
+Meowth
+Level: 23
+
 Goldeen
-Level: 13
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GERALD ===
@@ -12110,21 +12313,22 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 17
+Minun
+Level: 32
+Ability: Battery
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
+- Fake Tears
+- Parabolic Charge
+- Thunder Wave
 - Thunder Punch
 
-Meditite
-Level: 17
+Magneton
+Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
+- Mirror Shot
+- Thunderbolt
+- Magnet Bomb
+- Thunder Wave
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -12263,11 +12467,43 @@ Pic: Wally
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Ralts
-Level: 16
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+Breloom @ Focus Sash
+Level: 32
+Ability: Technician
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spore
+- Bullet Seed
+- Mach Punch
+- Rock Tomb
+
+Azumarill
+Level: 32
+Ability: Huge Power
+IVs: 25 HP / 31 Atk / 25 Def / 25 SpA / 25 SpD / 12 Spe
+- Aqua Jet
+- Play Rough
+- Aqua Tail
+- Ice Punch
+
+Loudred @ Throat Spray
+Level: 32
+Ability: Punk Rock
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Uproar
+- Hyper Voice
+- Chatter
+- Rallying Roar
+
+Delcatty @ Leftovers
+Level: 33
+Ability: Normalize
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 31 Spe
+- Boomburst
+- Thunder Wave
+- Draining Kiss
+- Thunderbolt
 
 === TRAINER_WALLY_VR_2 ===
 Name: WALLY
@@ -13231,11 +13467,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacool
-Level: 12
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 12
+Goldeen
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KALEB ===
@@ -13248,11 +13484,13 @@ Double Battle: No
 AI: Check Bad Move
 
 Minun @ Oran Berry
-Level: 14
+Level: 26
+Ability: Battery
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Plusle @ Oran Berry
-Level: 14
+Level: 26
+Ability: Transistor
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSEPH ===
@@ -13265,11 +13503,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Electrike
-Level: 14
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 14
+Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALYSSA ===
@@ -13281,9 +13519,15 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 15
+Magneton
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ponyta
+Level: 26
+
+Raichu
+Level: 27
 
 === TRAINER_MARCOS ===
 Name: MARCOS
@@ -16087,18 +16331,20 @@ Double Battle: No
 AI: Basic Trainer
 
 Illumise
-Level: 17
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
 - Quick Attack
 - Charm
+- Follow Me
 
 Volbeat
-Level: 17
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Shock Wave
 - Quick Attack
 - Confuse Ray
+- Signal Beam
 
 === TRAINER_DARIUS ===
 Name: DARIUS

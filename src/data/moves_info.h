@@ -509,13 +509,17 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Cuts the foe with sharp\n"
             "scythes, claws, etc."),
         .effect = EFFECT_HIT,
-        .power = 50,
-        .type = TYPE_NORMAL,
-        .accuracy = 95,
+        .power = 55,
+        .type = TYPE_STEEL,
+        .accuracy = 100,
         .pp = 30,
         .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_BREAK_SCREEN,
+            .preAttackEffect = TRUE,
+        }),
         .makesContact = TRUE,
         .slicingMove = TRUE,
         .contestEffect = C_UPDATED_MOVE_EFFECTS >= GEN_6 ? CONTEST_EFFECT_HIGHLY_APPEALING : CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
@@ -13793,7 +13797,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "act. May cause flinching."),
         .effect = EFFECT_HIT,
         .power = 60,
-        .type = TYPE_PSYCHIC,
+        .type = TYPE_FAIRY,
         .accuracy = 100,
         .pp = 25,
         .target = TARGET_SELECTED,
@@ -14943,7 +14947,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Draining Kiss"),
         .description = sDrainingKissDescription,
         .effect = EFFECT_ABSORB,
-        .power = 50,
+        .power = 70,
         .type = TYPE_FAIRY,
         .accuracy = 100,
         .pp = 10,
@@ -21500,6 +21504,33 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_Howl,
         .validApprenticeMove = TRUE,
+    },
+
+    
+    [MOVE_DRACO_MAW] =
+    {
+        .name = COMPOUND_STRING("Draco Maw"),
+        .description = COMPOUND_STRING(
+            "An attack that steals half\n"
+            "the damage inflicted."),
+        .effect = EFFECT_ABSORB,
+        .power = B_UPDATED_MOVE_DATA >= GEN_7 ? 65 : 20,
+        .type = TYPE_DRAGON,
+        .accuracy = 100,
+        .pp = B_UPDATED_MOVE_DATA >= GEN_7 ? 15 : 15,
+        .target = TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .argument = { .absorbPercentage = 50 },
+        .makesContact = TRUE,
+        .bitingMove = TRUE,
+        .ignoresKingsRock = (B_UPDATED_MOVE_FLAGS == GEN_3 || B_UPDATED_MOVE_FLAGS == GEN_4),
+        .healingMove = B_HEAL_BLOCKING >= GEN_6,
+        .contestEffect = C_UPDATED_MOVE_EFFECTS >= GEN_6 ? CONTEST_EFFECT_APPEAL_AS_GOOD_AS_PREV_ONE : CONTEST_EFFECT_STARTLE_PREV_MON,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_LeechLife,
     },
 
 
