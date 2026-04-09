@@ -266,7 +266,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_TM_SANDSTORM",
+      "trainer_sight_or_berry_tree_id": "ITEM_OLD_AMBER",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_111_TM_SANDSTORM"
     },
@@ -361,7 +361,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_STARDUST",
+      "trainer_sight_or_berry_tree_id": "ITEM_HELIX_FOSSIL",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_111_STARDUST"
     },
@@ -1067,7 +1067,7 @@
       "x": 26,
       "y": 70,
       "elevation": 0,
-      "item": "ITEM_STARDUST",
+      "item": "ITEM_DOME_FOSSIL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST"
     },
     {
@@ -1104,7 +1104,7 @@
       "x": 19,
       "y": 55,
       "elevation": 0,
-      "item": "ITEM_PROTEIN",
+      "item": "ITEM_ROOT_FOSSIL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_111_PROTEIN"
     },
     {
@@ -1112,7 +1112,7 @@
       "x": 35,
       "y": 66,
       "elevation": 0,
-      "item": "ITEM_RARE_CANDY",
+      "item": "ITEM_CLAW_FOSSIL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_111_RARE_CANDY"
     },
     {

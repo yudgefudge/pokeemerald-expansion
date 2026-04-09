@@ -616,10 +616,10 @@ MauvilleCity_Text_NurseHurtMonBackToHealth:
 	.string "you have to nurse it back to health.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
-	.string "The roads of this town stretch north\n"
-	.string "and south, and east and west.\p"
-	.string "Because of that, we get all sorts of\n"
-	.string "people coming through.$"
+	.string "The grass near the gym is\n"
+	.string "Wattson's Starter Grove.\p"
+	.string "He raises Starter POKéMON\n"
+	.string "there.$"
 
 MauvilleCity_Text_RydelVeryGenerous:
 	.string "Have you been to RYDEL'S CYCLES yet?\p"
