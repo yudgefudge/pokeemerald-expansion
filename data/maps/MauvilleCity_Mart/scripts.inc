@@ -23,7 +23,7 @@ MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_POWER_HERB
 	.2byte ITEM_WHITE_HERB
 	.2byte ITEM_FOCUS_SASH
-	.2byte ITEM_ABILITY_PATCH
+	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_AIR_BALLOON
 	.2byte ITEM_X_ACCURACY
 	pokemartlistend

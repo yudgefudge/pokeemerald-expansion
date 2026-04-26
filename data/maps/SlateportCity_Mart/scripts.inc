@@ -20,6 +20,8 @@ SlateportCity_Mart_Pokemart:
 	.2byte ITEM_SUN_STONE
 	.2byte ITEM_MOON_STONE
 	.2byte ITEM_ICE_STONE
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_SHINY_STONE
 	.2byte ITEM_REPEL
 	.2byte ITEM_HARBOR_MAIL
 	pokemartlistend

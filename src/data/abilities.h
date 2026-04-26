@@ -1391,7 +1391,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_PARENTAL_BOND] =
     {
-        .name = _("Parental Bond"),
+        .name = _("Cooperation"),
         .description = COMPOUND_STRING("Moves hit twice."),
         .aiRating = 10,
     },
@@ -1766,7 +1766,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_PRISM_ARMOR] =
     {
-        .name = _("Prism Armor"),
+        .name = _("Rampart"),
         .description = COMPOUND_STRING("Weakens “supereffective”."),
         .aiRating = 6,
     },
@@ -1941,7 +1941,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_GORILLA_TACTICS] =
     {
-        .name = _("Gorilla Tactics"),
+        .name = _("Hoplite"),
         .description = COMPOUND_STRING("Ups Attack and locks move."),
         .aiRating = 4,
     },
@@ -1985,7 +1985,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_UNSEEN_FIST] =
     {
-        .name = _("Unseen Fist"),
+        .name = _("Sneak Attack"),
         .description = COMPOUND_STRING("Contact evades protection."),
         .aiRating = 6,
     },
@@ -1999,7 +1999,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_TRANSISTOR] =
     {
-        .name = _("Transistor"),
+        .name = _("Solenoid"),
         .description = COMPOUND_STRING("Ups Electric-type moves."),
         .aiRating = 6,
     },
@@ -2013,7 +2013,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_CHILLING_NEIGH] =
     {
-        .name = _("Chilling Neigh"),
+        .name = _("Burning Neigh"),
         .description = COMPOUND_STRING("KOs boost Attack stat."),
         .aiRating = 7,
     },
@@ -2439,6 +2439,13 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     {
         .name = _("Hammer Time"),
         .description = COMPOUND_STRING("Strengthens hammer moves."),
+        .aiRating = 7,
+    },
+
+    [ABILITY_KICKSTART] =
+    {
+        .name = _("Kickstart"),
+        .description = COMPOUND_STRING("Strengthens kicking moves."),
         .aiRating = 7,
     },
 

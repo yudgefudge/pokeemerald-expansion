@@ -19,6 +19,7 @@ VerdanturfTown_Mart_Pokemart:
 	.2byte ITEM_DEEP_SEA_TOOTH
 	.2byte ITEM_DRAGON_SCALE
 	.2byte ITEM_METAL_COAT
+	.2byte ITEM_BLACK_AUGURITE
 	.2byte ITEM_KINGS_ROCK
 	.2byte ITEM_UPGRADE
 	.2byte ITEM_OVAL_STONE

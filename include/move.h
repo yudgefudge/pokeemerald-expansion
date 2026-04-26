@@ -113,6 +113,7 @@ struct MoveInfo
     bool32 windMove:1;
     bool32 slicingMove:1;
     bool32 hammerMove:1;
+    bool32 kickMove:1;
     bool32 healingMove:1;
     bool32 minimizeDoubleDamage:1;
     // end of word
@@ -393,6 +394,10 @@ static inline bool32 IsHammerMove(enum Move moveId)
     return gMovesInfo[SanitizeMoveId(moveId)].hammerMove;
 }
 
+static inline bool32 IsKickMove(enum Move moveId)
+{
+    return gMovesInfo[SanitizeMoveId(moveId)].kickMove;
+}
 
 static inline bool32 IsHealingMove(enum Move moveId)
 {

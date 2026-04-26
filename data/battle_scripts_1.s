@@ -6192,6 +6192,7 @@ BattleScript_IntimidateActivates::
 	savetarget
 	call BattleScript_AbilityPopUp
 	setbyte gBattlerTarget, 0
+	goto BattleScript_IntimidateLoop
 BattleScript_TerrifyActivates::
 	savetarget
 	call BattleScript_AbilityPopUp
