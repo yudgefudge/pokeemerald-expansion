@@ -7650,7 +7650,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Knocks down the foe's held\n"
             "item to prevent its use."),
         .effect = EFFECT_KNOCK_OFF,
-        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 65 : 20,
+        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 20,
         .type = TYPE_DARK,
         .accuracy = 100,
         .pp = 20,
@@ -8168,7 +8168,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Attacks with thorny arms.\n"
             "May cause flinching."),
         .effect = EFFECT_HIT,
-        .power = 60,
+        .power = 85,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 15,
@@ -8768,7 +8768,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "An unavoidable punch that\n"
             "is thrown from shadows."),
         .effect = EFFECT_HIT,
-        .power = 60,
+        .power = 80,
         .type = TYPE_GHOST,
         .accuracy = 0,
         .pp = 20,
@@ -12207,7 +12207,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_DARK_VOID,
         .power = 0,
         .type = TYPE_DARK,
-        .accuracy = B_UPDATED_MOVE_DATA >= GEN_7 ? 50 : 80,
+        .accuracy = B_UPDATED_MOVE_DATA >= GEN_7 ? 80 : 80,
         .pp = 10,
         .target = TARGET_BOTH,
         .priority = 0,
@@ -14436,7 +14436,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_HIT,
         .power = 85,
         .type = TYPE_ICE,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 10,
         .target = TARGET_SELECTED,
         .priority = 0,
@@ -15390,7 +15390,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .pp = 20,
         .target = TARGET_SELECTED,
         .priority = 1,
-        .category = B_UPDATED_MOVE_DATA >= GEN_7 ? DAMAGE_CATEGORY_SPECIAL : DAMAGE_CATEGORY_PHYSICAL,
+        .category = B_UPDATED_MOVE_DATA >= GEN_7 ? DAMAGE_CATEGORY_PHYSICAL : DAMAGE_CATEGORY_PHYSICAL,
         .argument = {
             .speciesPowerOverride.species = SPECIES_GRENINJA_ASH,
             .speciesPowerOverride.power = 20,
@@ -21552,6 +21552,30 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_LeechLife,
+    },
+
+    [MOVE_FOSSIL_FURY] =
+    {
+        .name = COMPOUND_STRING("Fossil Fury"),
+        .description = COMPOUND_STRING(
+            "User's highest attack stat\n"
+            "determines its category."),
+        .effect = EFFECT_PHOTON_GEYSER,
+        .power = 100,
+        .type = TYPE_ROCK,
+        .accuracy = 100,
+        .pp = 10,
+        .target = TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .ignoresTargetAbility = TRUE,
+        .metronomeBanned = TRUE,
+        .makesContact = TRUE,
+        .contestEffect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_AncientPower,
     },
 
 
