@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
+    F(BREAKING_SWIPE) \
     F(DRAGON_CLAW) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
@@ -35,14 +35,14 @@
     F(BRICK_BREAK) \
     F(DOUBLE_TEAM) \
     F(REFLECT) \
-    F(SHOCK_WAVE) \
+    F(LIQUIDATION) \
     F(FLAMETHROWER) \
     F(SLUDGE_BOMB) \
     F(SANDSTORM) \
     F(FIRE_BLAST) \
     F(ROCK_TOMB) \
-    F(AERIAL_ACE) \
-    F(TORMENT) \
+    F(STOMPING_TANTRUM) \
+    F(SMART_STRIKE) \
     F(FACADE) \
     F(SECRET_POWER) \
     F(REST) \
@@ -50,8 +50,58 @@
     F(THIEF) \
     F(STEEL_WING) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(KNOCK_OFF) \
+    F(OVERHEAT) \
+    F(DRAGON_DANCE) \
+    F(STONE_EDGE) \
+    F(AURA_SPHERE) \
+    F(STEALTH_ROCK) \
+    F(SCALD) \
+    F(FOUL_PLAY) \
+    F(VOLT_SWITCH) \
+    F(TOXIC_SPIKES) \
+    F(U_TURN) \
+    F(THUNDER_WAVE) \
+    F(NASTY_PLOT) \
+    F(SUBSTITUTE) \
+    F(GYRO_BALL) \
+    F(SHADOW_CLAW) \
+    F(DRAIN_PUNCH) \
+    F(LOW_KICK) \
+    F(ENERGY_BALL) \
+    F(EARTH_POWER) \
+    F(AVALANCHE) \
+    F(FLASH_CANNON) \
+    F(FOCUS_BLAST) \
+    F(TRICK_ROOM) \
+    F(DARK_PULSE) \
+    F(POISON_JAB) \
+    F(SEED_BOMB) \
+    F(DRAGON_PULSE) \
+    F(POWER_GEM) \
+    F(WEATHER_BALL) \
+    F(GUNK_SHOT) \
+    F(SWORDS_DANCE) \
+    F(ACROBATICS) \
+    F(HEX) \
+    F(SPIKES) \
+    F(BATON_PASS) \
+    F(SLEEP_TALK) \
+    F(RETALIATE) \
+    F(STORED_POWER) \
+    F(BULLDOZE) \
+    F(WORK_UP) \
+    F(PHANTOM_FORCE) \
+    F(BODY_PRESS) \
+    F(GRASSY_TERRAIN) \
+    F(MISTY_TERRAIN) \
+    F(ELECTRIC_TERRAIN) \
+    F(PSYCHIC_TERRAIN) \
+    F(ROOST) \
+    F(DAZZLING_GLEAM) \
+    F(FALSE_SWIPE) \
+    F(WILL_O_WISP) \
+    F(HIGH_HORSEPOWER) \
 
 #define FOREACH_HM(F) \
     F(CUT) \

@@ -6745,6 +6745,10 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct BattleContext *ctx)
         if (IsKickMove(move))
                    modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
+    case ABILITY_REAPER:
+        if (IsHealingMove(move))
+                   modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
+        break;
     case ABILITY_SUPREME_OVERLORD:
         modifier = uq4_12_multiply(modifier, GetSupremeOverlordModifier(battlerAtk));
         break;
@@ -7067,13 +7071,17 @@ static inline u32 CalcAttackStat(struct BattleContext *ctx)
         if (moveType == TYPE_ELECTRIC)
         {
             if (GetConfig(B_TRANSISTOR_BOOST) >= GEN_9)
-                modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
+                modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
             else
                 modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         }
         break;
     case ABILITY_DRAGONS_MAW:
         if (moveType == TYPE_DRAGON)
+            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
+        break;
+    case ABILITY_BAD_TACTICS:
+        if (moveType == TYPE_DARK)
             modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_GORILLA_TACTICS:

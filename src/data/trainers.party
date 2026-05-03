@@ -5254,14 +5254,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Steel Wing
 - Roost
 
-Hypno @ Tanga Berry
+Muk @ Air Balloon
 Level: 100
-Ability: Bad Dreams
+Ability: Bad Tactics
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Dark Void
-- Dream Eater
-- Night Daze
-- Power Gem
+- Gunk Shot
+- Crunch
+- Sucker Punch
+- Liquidation
 
 Houndoom @ Heat Rock
 Level: 100
@@ -5364,7 +5364,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Mamoswine
 Level: 100
-Ability: Slush Rush
+Ability: Thick Fat
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
 - Icicle Crash
@@ -5414,7 +5414,7 @@ Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
 Double Battle: No
-AI: Smart Trainer / Ace Pokemon
+AI: Smart Trainer / Ace Pokemon / Force Setup First Turn
 Mugshot: Blue
 
 Ampharos

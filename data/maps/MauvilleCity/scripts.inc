@@ -662,3 +662,184 @@ MauvilleCity_Text_ExplainTV:
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
+
+MauvilleCity_EventScript_MoveTutor::
+	lock
+	faceplayer
+	goto_if_set FLAG_MET_MAUVILLE_MOVE_TUTOR, MauvilleCity_EventScript_ChooseTutorMove
+	setflag FLAG_MET_MAUVILLE_MOVE_TUTOR
+	goto MauvilleCity_EventScript_ChooseTutorMove
+	end
+
+MauvilleCity_EventScript_ChooseTutorMove::
+	message MauvilleCity_Text_TeachWhichMove
+	waitmessage
+	setvar VAR_0x8004, SCROLL_MULTI_MAUVILLE_MOVE_TUTOR
+	setvar VAR_0x8006, 0
+	special ShowScrollableMultichoice
+	waitstate
+	switch VAR_RESULT
+	case 0, MauvilleCity_EventScript_HelpingHand
+	case 1, MauvilleCity_EventScript_MagnetRise
+	case 2, MauvilleCity_EventScript_OminousWind
+	case 3, MauvilleCity_EventScript_SignalBeam
+	case 4, MauvilleCity_EventScript_ZenHeadbutt
+	case 5, MauvilleCity_EventScript_LowKick
+	case 6, MauvilleCity_EventScript_Tailwind
+	case 7, MauvilleCity_EventScript_WorrySeed
+	case 8, MauvilleCity_EventScript_SuperFang
+	case 9, MauvilleCity_EventScript_GrassyGlide
+	case 10, MauvilleCity_EventScript_DualWingbeat
+	case 11, MauvilleCity_EventScript_Coaching
+	case 12, MauvilleCity_EventScript_TerrainPulse
+	case 13, MauvilleCity_EventScript_SkitterSmack
+	case 14, MauvilleCity_EventScript_FlipTurn
+	case 15, MauvilleCity_EventScript_TripleAxel
+	case 16, MauvilleCity_EventScript_DracoMaw
+	case 17, MauvilleCity_EventScript_ExitTutorMoveSelect
+	case MULTI_B_PRESSED, MauvilleCity_EventScript_ExitTutorMoveSelect
+	end
+
+MauvilleCity_EventScript_ChooseNewTutorMove::
+	message MauvilleCity_Text_TeachWhichMove
+	waitmessage
+	setvar VAR_0x8004, SCROLL_MULTI_MAUVILLE_MOVE_TUTOR
+	setvar VAR_0x8006, 1
+	special ShowScrollableMultichoice
+	waitstate
+	switch VAR_RESULT
+	case 0, MauvilleCity_EventScript_HelpingHand
+	case 1, MauvilleCity_EventScript_MagnetRise
+	case 2, MauvilleCity_EventScript_OminousWind
+	case 3, MauvilleCity_EventScript_SignalBeam
+	case 4, MauvilleCity_EventScript_ZenHeadbutt
+	case 5, MauvilleCity_EventScript_LowKick
+	case 6, MauvilleCity_EventScript_Tailwind
+	case 7, MauvilleCity_EventScript_WorrySeed
+	case 8, MauvilleCity_EventScript_SuperFang
+	case 9, MauvilleCity_EventScript_GrassyGlide
+	case 10, MauvilleCity_EventScript_DualWingbeat
+	case 11, MauvilleCity_EventScript_Coaching
+	case 12, MauvilleCity_EventScript_TerrainPulse
+	case 13, MauvilleCity_EventScript_SkitterSmack
+	case 14, MauvilleCity_EventScript_FlipTurn
+	case 15, MauvilleCity_EventScript_TripleAxel
+	case 16, MauvilleCity_EventScript_DracoMaw
+	case 17, MauvilleCity_EventScript_ExitTutorMoveSelect
+	case MULTI_B_PRESSED, MauvilleCity_EventScript_ExitTutorMoveSelect
+	end
+
+MauvilleCity_EventScript_HelpingHand::
+	setvar VAR_0x8005, MOVE_HELPING_HAND
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_MagnetRise::
+	setvar VAR_0x8005, MOVE_MAGNET_RISE
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_OminousWind::
+	setvar VAR_0x8005, MOVE_OMINOUS_WIND
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_SignalBeam::
+	setvar VAR_0x8005, MOVE_SIGNAL_BEAM
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_ZenHeadbutt::
+	setvar VAR_0x8005, MOVE_ZEN_HEADBUTT
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_LowKick::
+	setvar VAR_0x8005, MOVE_LOW_KICK
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_Tailwind::
+	setvar VAR_0x8005, MOVE_TAILWIND
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_WorrySeed::
+	setvar VAR_0x8005, MOVE_WORRY_SEED
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_SuperFang::
+	setvar VAR_0x8005, MOVE_SUPER_FANG
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_GrassyGlide::
+	setvar VAR_0x8005, MOVE_GRASSY_GLIDE
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_DualWingbeat::
+	setvar VAR_0x8005, MOVE_DUAL_WINGBEAT
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_Coaching::
+	setvar VAR_0x8005, MOVE_COACHING
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_TerrainPulse::
+	setvar VAR_0x8005, MOVE_TERRAIN_PULSE
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_SkitterSmack::
+	setvar VAR_0x8005, MOVE_SKITTER_SMACK
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_FlipTurn::
+	setvar VAR_0x8005, MOVE_FLIP_TURN
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_TripleAxel::
+	setvar VAR_0x8005, MOVE_TRIPLE_AXEL
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_DracoMaw::
+	setvar VAR_0x8005, MOVE_DRACO_MAW
+	goto MauvilleCity_EventScript_TeachTutorMove
+	end
+
+MauvilleCity_EventScript_TeachTutorMove::
+	msgbox MauvilleCity_Text_TeachMoveToWhichMon, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	special CloseBattleFrontierTutorWindow
+	chooseboxmon SELECT_PC_MON_MOVE_TUTOR
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_EventScript_CancelChooseMon
+	release
+	end
+
+MauvilleCity_EventScript_ExitTutorMoveSelect::
+	special CloseBattleFrontierTutorWindow
+	msgbox MauvilleCity_Text_YouDontWantTo, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_EventScript_CancelChooseMon::
+	msgbox MauvilleCity_Text_YouDontWantTo, MSGBOX_DEFAULT
+	release
+	end
+
+MauvilleCity_Text_TeachWhichMove:
+	.string "What move would you like to learn?$"
+
+MauvilleCity_Text_TeachMoveToWhichMon:
+	.string "Pick the POKéMON to teach the move to.$"
+
+MauvilleCity_Text_YouDontWantTo:
+	.string "Come back any time!$"

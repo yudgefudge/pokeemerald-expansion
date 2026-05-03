@@ -2442,7 +2442,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_TERRIFY] =
     {
-        .name = _("Terrify"),
+        .name = _("Mind Mog"),
         .description = COMPOUND_STRING("Lowers foe's Sp. Attack."),
         .aiRating = 7,
     },
@@ -2457,7 +2457,7 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_HAMMER_TIME] =
     {
         .name = _("Hammer Time"),
-        .description = COMPOUND_STRING("Strengthens hammer moves."),
+        .description = COMPOUND_STRING("Strengthens hammer moves and makes them go first."),
         .aiRating = 7,
     },
 
@@ -2467,5 +2467,20 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .description = COMPOUND_STRING("Strengthens kicking moves."),
         .aiRating = 7,
     },
+
+    [ABILITY_BAD_TACTICS] =
+    {
+        .name = _("Bad Tactics"),
+        .description = COMPOUND_STRING("Ups Dark-type moves."),
+        .aiRating = 6,
+    },
+
+    [ABILITY_REAPER] =
+    {
+        .name = _("Reaper"),
+        .description = COMPOUND_STRING("Ups HP-draining moves."),
+        .aiRating = 7,
+    },
+
 
 };

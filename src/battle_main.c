@@ -4844,6 +4844,11 @@ s32 GetBattleMovePriority(enum BattlerId battler, enum Ability ability, enum Mov
     {
         priority++;
     }
+    else if (ability == ABILITY_HAMMER_TIME
+          && IsHammerMove(move))
+    {
+        priority++;
+    }
     else if (IsBattleMoveStatus(move) && IsAbilityAndRecord(battler, ability, ABILITY_PRANKSTER))
     {
         gProtectStructs[battler].pranksterElevated = 1;

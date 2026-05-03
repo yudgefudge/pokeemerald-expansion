@@ -398,3 +398,176 @@ SlateportCity_PokemonFanClub_Text_Zigzagoon:
 SlateportCity_PokemonFanClub_Text_Azumarill:
 	.string "AZUMARILL: Marimari?$"
 
+SlateportCity_EventScript_MoveTutor::
+	lock
+	faceplayer
+	goto_if_set FLAG_MET_SLATEPORT_MOVE_TUTOR, SlateportCity_EventScript_ChooseTutorMove
+	setflag FLAG_MET_SLATEPORT_MOVE_TUTOR
+	goto SlateportCity_EventScript_ChooseTutorMove
+	end
+
+SlateportCity_EventScript_ChooseTutorMove::
+	message SlateportCity_Text_TeachWhichMove
+	waitmessage
+	setvar VAR_0x8004, SCROLL_MULTI_SLATEPORT_MOVE_TUTOR
+	setvar VAR_0x8006, 0
+	special ShowScrollableMultichoice
+	waitstate
+	switch VAR_RESULT
+	case 0, SlateportCity_EventScript_FuryCutter
+	case 1, SlateportCity_EventScript_Rollout
+	case 2, SlateportCity_EventScript_MudSlap
+	case 3, SlateportCity_EventScript_Mimic
+	case 4, SlateportCity_EventScript_Metronome
+	case 5, SlateportCity_EventScript_SeismicToss
+	case 6, SlateportCity_EventScript_Swift
+	case 7, SlateportCity_EventScript_AirCutter
+	case 8, SlateportCity_EventScript_AncientPower
+	case 9, SlateportCity_EventScript_IcyWind
+	case 10, SlateportCity_EventScript_IronDefense
+	case 11, SlateportCity_EventScript_Twister
+	case 12, SlateportCity_EventScript_BugBite
+	case 13, SlateportCity_EventScript_VacuumWave
+	case 14, SlateportCity_EventScript_CorrosiveGas
+	case 15, SlateportCity_EventScript_SilkShot
+	case 16, SlateportCity_EventScript_ExitTutorMoveSelect
+	case MULTI_B_PRESSED, SlateportCity_EventScript_ExitTutorMoveSelect
+	end
+
+SlateportCity_EventScript_ChooseNewTutorMove::
+	message SlateportCity_Text_TeachWhichMove
+	waitmessage
+	setvar VAR_0x8004, SCROLL_MULTI_SLATEPORT_MOVE_TUTOR
+	setvar VAR_0x8006, 1
+	special ShowScrollableMultichoice
+	waitstate
+	switch VAR_RESULT
+	case 0, SlateportCity_EventScript_FuryCutter
+	case 1, SlateportCity_EventScript_Rollout
+	case 2, SlateportCity_EventScript_MudSlap
+	case 3, SlateportCity_EventScript_Mimic
+	case 4, SlateportCity_EventScript_Metronome
+	case 5, SlateportCity_EventScript_SeismicToss
+	case 6, SlateportCity_EventScript_Swift
+	case 7, SlateportCity_EventScript_AirCutter
+	case 8, SlateportCity_EventScript_AncientPower
+	case 9, SlateportCity_EventScript_IcyWind
+	case 10, SlateportCity_EventScript_IronDefense
+	case 11, SlateportCity_EventScript_Twister
+	case 12, SlateportCity_EventScript_BugBite
+	case 13, SlateportCity_EventScript_VacuumWave
+	case 14, SlateportCity_EventScript_CorrosiveGas
+	case 15, SlateportCity_EventScript_SilkShot
+	case 16, SlateportCity_EventScript_ExitTutorMoveSelect
+	case MULTI_B_PRESSED, SlateportCity_EventScript_ExitTutorMoveSelect
+	end
+
+SlateportCity_EventScript_FuryCutter::
+	setvar VAR_0x8005, MOVE_FURY_CUTTER
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_Rollout::
+	setvar VAR_0x8005, MOVE_ROLLOUT
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_MudSlap::
+	setvar VAR_0x8005, MOVE_MUD_SLAP
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_Mimic::
+	setvar VAR_0x8005, MOVE_MIMIC
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_Metronome::
+	setvar VAR_0x8005, MOVE_METRONOME
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_SeismicToss::
+	setvar VAR_0x8005, MOVE_SEISMIC_TOSS
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_Swift::
+	setvar VAR_0x8005, MOVE_SWIFT
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_AirCutter::
+	setvar VAR_0x8005, MOVE_AIR_CUTTER
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_AncientPower::
+	setvar VAR_0x8005, MOVE_ANCIENT_POWER
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_IcyWind::
+	setvar VAR_0x8005, MOVE_ICY_WIND
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_IronDefense::
+	setvar VAR_0x8005, MOVE_IRON_DEFENSE
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_Twister::
+	setvar VAR_0x8005, MOVE_TWISTER
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_BugBite::
+	setvar VAR_0x8005, MOVE_BUG_BITE
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_VacuumWave::
+	setvar VAR_0x8005, MOVE_VACUUM_WAVE
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_CorrosiveGas::
+	setvar VAR_0x8005, MOVE_CORROSIVE_GAS
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_SilkShot::
+	setvar VAR_0x8005, MOVE_SILK_SHOT
+	goto SlateportCity_EventScript_TeachTutorMove
+	end
+
+SlateportCity_EventScript_TeachTutorMove::
+	msgbox SlateportCity_Text_TeachMoveToWhichMon, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
+	special CloseBattleFrontierTutorWindow
+	chooseboxmon SELECT_PC_MON_MOVE_TUTOR
+	waitstate
+	goto_if_eq VAR_RESULT, FALSE, SlateportCity_EventScript_CancelChooseMon
+	release
+	end
+
+SlateportCity_EventScript_ExitTutorMoveSelect::
+	special CloseBattleFrontierTutorWindow
+	msgbox SlateportCity_Text_YouDontWantTo, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_EventScript_CancelChooseMon::
+	msgbox SlateportCity_Text_YouDontWantTo, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Text_TeachWhichMove:
+	.string "What move would you like to learn?$"
+
+SlateportCity_Text_TeachMoveToWhichMon:
+	.string "Pick the POKéMON to teach the move to.$"
+
+SlateportCity_Text_YouDontWantTo:
+	.string "Come back any time!$"

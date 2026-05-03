@@ -618,8 +618,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_FLY] =
     {
         .name = COMPOUND_STRING("Fly"),
-        .description = COMPOUND_STRING(
-            "Flies up and \nswitches out."),
+        .description = sUTurnDescription,
         .effect = EFFECT_HIT_ESCAPE,
         .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 70 : 70,
         .type = TYPE_FLYING,
@@ -1194,7 +1193,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Foreleg stingers jab foe\n"
             "twice. May poison."),
         .effect = EFFECT_HIT,
-        .power = 25,
+        .power = 50,
         .type = TYPE_BUG,
         .accuracy = 100,
         .pp = 20,
@@ -2511,8 +2510,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_DIG] =
     {
         .name = COMPOUND_STRING("Dig"),
-        .description = COMPOUND_STRING(
-            "Digs underground and switches out."),
+        .description = sUTurnDescription,
         .effect = EFFECT_HIT_ESCAPE,
         #if B_UPDATED_MOVE_DATA >= GEN_4
             .power = 80,
@@ -4057,13 +4055,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Looses a powerful blast of\n"
             "light that cuts accuracy."),
         .effect = EFFECT_ACCURACY_DOWN,
-        .power = 0,
-        .type = TYPE_NORMAL,
+        .power = 50,
+        .type = TYPE_ELECTRIC,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_4 ? 100 : 70,
         .pp = 20,
         .target = TARGET_SELECTED,
         .priority = 0,
-        .category = DAMAGE_CATEGORY_STATUS,
+        .category = DAMAGE_CATEGORY_SPECIAL,
         .zMove = { .effect = Z_EFFECT_EVSN_UP_1 },
         .magicCoatAffected = TRUE,
         .contestEffect = CONTEST_EFFECT_SHIFT_JUDGE_ATTENTION,
@@ -7875,8 +7873,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     [MOVE_DIVE] =
     {
         .name = COMPOUND_STRING("Dive"),
-        .description = COMPOUND_STRING(
-            "Dives underwater \nand switches out."),
+        .description = sUTurnDescription,
         .effect = EFFECT_HIT_ESCAPE,
         .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 70 : 60,
         .type = TYPE_WATER,
@@ -14687,7 +14684,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Phantom Force"),
         .description = sShadowForceDescription,
         .effect = EFFECT_SEMI_INVULNERABLE,
-        .power = 90,
+        .power = 120,
         .type = TYPE_GHOST,
         .accuracy = 100,
         .pp = 10,
@@ -14795,7 +14792,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .type = TYPE_ELECTRIC,
         .accuracy = 100,
         .pp = 20,
-        .target = TARGET_FOES_AND_ALLY,
+        .target = TARGET_BOTH,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
         .argument = { .absorbPercentage = 50 },
@@ -15357,7 +15354,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Hyperspace Hole"),
         .description = sHyperspaceHoleDescription,
         .effect = EFFECT_HIT,
-        .power = 80,
+        .power = 100,
         .type = TYPE_PSYCHIC,
         .accuracy = 0,
         .pp = 5,
@@ -17646,7 +17643,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Giant stalk scatters seeds\n"
             "that drain HP every turn."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 60 : 90,
+        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 75 : 90,
         .type = TYPE_GRASS,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_8 ? 90 : 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_8 ? 10 : 15,
@@ -20747,13 +20744,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
 
     [MOVE_BITTER_BLADE] =
     {
-        .name = COMPOUND_STRING("Bitter Blade"),
+        .name = COMPOUND_STRING("Grave Rob"),
         .description = COMPOUND_STRING(
             "An attack that absorbs\n"
             "half the damage inflicted."),
         .effect = EFFECT_ABSORB,
         .power = 90,
-        .type = TYPE_FIRE,
+        .type = TYPE_GHOST,
         .accuracy = 100,
         .pp = 10,
         .target = TARGET_SELECTED,
