@@ -13,6 +13,9 @@ SlateportCity_Mart_EventScript_Clerk::
 
 	.align 2
 SlateportCity_Mart_Pokemart:
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_ABILITY_CAPSULE
 	.2byte ITEM_FIRE_STONE
 	.2byte ITEM_WATER_STONE
 	.2byte ITEM_LEAF_STONE
@@ -20,7 +23,6 @@ SlateportCity_Mart_Pokemart:
 	.2byte ITEM_SUN_STONE
 	.2byte ITEM_MOON_STONE
 	.2byte ITEM_ICE_STONE
-	.2byte ITEM_GREAT_BALL
 	.2byte ITEM_SHINY_STONE
 	.2byte ITEM_REPEL
 	.2byte ITEM_HARBOR_MAIL

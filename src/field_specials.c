@@ -2465,7 +2465,7 @@ void ShowScrollableMultichoice(void)
         break;
     case SCROLL_MULTI_VERDANTURF_MOVE_TUTOR:
         task->tMaxItemsOnScreen = MAX_SCROLL_MULTI_ON_SCREEN;
-        task->tNumItems = 14;
+        task->tNumItems = 16;
         task->tLeft = 15;
         task->tTop = 1;
         task->tWidth = 14;
@@ -2712,6 +2712,8 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
         COMPOUND_STRING("SCALE SHOT"),
         COMPOUND_STRING("BURNING JEALOUSY"),
         COMPOUND_STRING("EXPANDING FORCE"),
+        COMPOUND_STRING("BOOMBURST"),
+        COMPOUND_STRING("HURRICANE"),
         gText_Exit
     },
     [SCROLL_MULTI_FALLARBOR_MOVE_TUTOR] =

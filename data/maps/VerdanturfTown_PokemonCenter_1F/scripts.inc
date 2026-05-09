@@ -69,7 +69,9 @@ VerdanturfTown_EventScript_ChooseTutorMove::
 	case 10, VerdanturfTown_EventScript_ScaleShot
 	case 11, VerdanturfTown_EventScript_BurningJealousy
 	case 12, VerdanturfTown_EventScript_ExpandingForce
-	case 13, VerdanturfTown_EventScript_ExitTutorMoveSelect
+	case 13, VerdanturfTown_EventScript_Boomburst
+	case 14, VerdanturfTown_EventScript_Hurricane
+	case 15, VerdanturfTown_EventScript_ExitTutorMoveSelect
 	case MULTI_B_PRESSED, VerdanturfTown_EventScript_ExitTutorMoveSelect
 	end
 
@@ -94,7 +96,9 @@ VerdanturfTown_EventScript_ChooseNewTutorMove::
 	case 10, VerdanturfTown_EventScript_ScaleShot
 	case 11, VerdanturfTown_EventScript_BurningJealousy
 	case 12, VerdanturfTown_EventScript_ExpandingForce
-	case 13, VerdanturfTown_EventScript_ExitTutorMoveSelect
+	case 13, VerdanturfTown_EventScript_Boomburst
+	case 14, VerdanturfTown_EventScript_Hurricane
+	case 15, VerdanturfTown_EventScript_ExitTutorMoveSelect
 	case MULTI_B_PRESSED, VerdanturfTown_EventScript_ExitTutorMoveSelect
 	end
 
@@ -163,6 +167,16 @@ VerdanturfTown_EventScript_ExpandingForce::
 	goto VerdanturfTown_EventScript_TeachTutorMove
 	end
 
+VerdanturfTown_EventScript_Boomburst::
+	setvar VAR_0x8005, MOVE_BOOMBURST
+	goto VerdanturfTown_EventScript_TeachTutorMove
+	end
+
+VerdanturfTown_EventScript_Hurricane::
+	setvar VAR_0x8005, MOVE_HURRICANE
+	goto VerdanturfTown_EventScript_TeachTutorMove
+	end
+
 VerdanturfTown_EventScript_TeachTutorMove::
 	msgbox VerdanturfTown_Text_TeachMoveToWhichMon, MSGBOX_DEFAULT
 	fadescreen FADE_TO_BLACK
@@ -192,3 +206,4 @@ VerdanturfTown_Text_TeachMoveToWhichMon:
 
 VerdanturfTown_Text_YouDontWantTo:
 	.string "Come back any time!$"
+	
