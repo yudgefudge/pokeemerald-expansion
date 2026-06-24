@@ -4821,7 +4821,7 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, enum BattlerId battler, enum
              && IsBattlerAlive(partner))
             {
                 gEffectBattler = partner;
-                SetHealAmount(partner, GetNonDynamaxMaxHP(partner) / 4);
+                SetHealAmount(partner, GetNonDynamaxMaxHP(partner) / 3);
                 BattleScriptCall(BattleScript_HospitalityActivates);
                 effect++;
             }
@@ -6692,7 +6692,7 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct BattleContext *ctx)
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_MEGA_LAUNCHER:
-        if (IsPulseMove(move))
+        if (IsPulseMove(move) || IsBallisticMove(move))
            modifier = uq4_12_multiply(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_WATER_BUBBLE:
@@ -6733,7 +6733,7 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct BattleContext *ctx)
         break;
     case ABILITY_SHARPNESS:
         if (IsSlicingMove(move))
-           modifier = uq4_12_multiply(modifier, UQ_4_12(1.3));
+           modifier = uq4_12_multiply(modifier, UQ_4_12(1.2));
         break;
     case ABILITY_HAMMER_TIME:
         if (IsHammerMove(move))

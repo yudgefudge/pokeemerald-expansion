@@ -17532,7 +17532,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "half the damage inflicted."),
         #endif
         .effect = EFFECT_ABSORB,
-        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 60 : 90,
+        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 70 : 90,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_8 ? 20 : 15,
@@ -17575,7 +17575,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "User cloaked in fire charges.\n"
             "Leaves the foe with a burn."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 60 : 90,
+        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 70 : 90,
         .type = TYPE_FIRE,
         .accuracy = 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_8 ? 20 : 15,
@@ -17621,7 +17621,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Acting badly, attacks. Sets\n"
             "wall, lowering Attack damage."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 80 : 90,
+        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 50 : 90,
         .type = TYPE_DARK,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_8 ? 95 : 100,
         .pp = 15,
@@ -17643,7 +17643,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Giant stalk scatters seeds\n"
             "that drain HP every turn."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 75 : 90,
+        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 65 : 90,
         .type = TYPE_GRASS,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_8 ? 90 : 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_8 ? 10 : 15,
@@ -17666,7 +17666,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Crystal from cold haze hits.\n"
             "Eliminates all stat changes."),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 100 : 90,
+        .power = B_UPDATED_MOVE_DATA >= GEN_8 ? 50 : 90,
         .type = TYPE_ICE,
         .accuracy = B_UPDATED_MOVE_DATA >= GEN_8 ? 90 : 100,
         .pp = B_UPDATED_MOVE_DATA >= GEN_8 ? 10 : 15,
@@ -19760,7 +19760,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Hurts a foe harder if it has\n"
             "an ailment. May leave a burn."),
         .effect = EFFECT_DOUBLE_POWER_ON_ARG_STATUS,
-        .power = 60,
+        .power = 75,
         .type = TYPE_GHOST,
         .accuracy = 100,
         .pp = 15,
